@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "动态",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "index-list": "/components/index/index-list",
+    "swiper-tab-head": "/components/index/swiper-tab-head",
+    "load-more": "/components/common/load-more",
+    "no-thing": "/components/common/no-thing"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "商家入驻",
+  "usingComponents": {
+    "ruzhu-biaodan": "/components/ruzhu-biaodan/ruzhu-biaodan"
+  }
+}

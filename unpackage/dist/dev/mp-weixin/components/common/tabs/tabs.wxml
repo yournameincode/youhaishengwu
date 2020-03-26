@@ -1,0 +1,1 @@
+<view class="content"><ms-tabs bind:input="__e" vue-id="f1f52c80-1" list="{{type2}}" itemColor="#03A9F4" lineColor="#03A9F4" lineAnimated="{{false}}" value="{{active2}}" data-event-opts="{{[['^input',[['__set_model',['','active2','$event',[]]]]]]}}" bind:__l="__l"></ms-tabs></view>

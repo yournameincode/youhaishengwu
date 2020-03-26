@@ -1,0 +1,204 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "有害生物防治圈"
+			}
+		},
+		{
+			"path": "pages/shangquan/shangquan",
+			"style": {
+				"navigationBarTitleText": "商圈",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/ruzhu/ruzhu",
+			"style": {
+				"navigationBarTitleText": "商家入驻"
+			}
+		},
+		{
+			"path": "pages/dongtai/dongtai",
+			"style": {
+				"navigationBarTitleText": "动态",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/shangjiaxiangqing/shangjiaxiangqing",
+			"style": {
+				"navigationBarTitleText": "商家详情"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册账号",
+				"navigationBarBackgroundColor": "#f06c7a",
+				"navigationBarTextStyle": "white"
+
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#f06c7a",
+				"navigationBarTextStyle": "white"
+
+			}
+		},
+		{
+			"path": "pages/login/resetpasswd",
+			"style": {
+				"navigationBarTitleText": "重置密码",
+				"navigationBarBackgroundColor": "#f06c7a",
+				"navigationBarTextStyle": "white"
+
+			}
+		},
+		{
+			"path": "pages/user/order_list/order_list",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#f8f8f8",
+				"backgroundColorTop": "#f3f3f3",
+				"backgroundColorBottom": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/user/setting/setting",
+			"style": {
+				"navigationBarBackgroundColor": "#f8f8f8",
+				"navigationBarTitleText": "我的设置",
+				"backgroundColorTop": "#ffffff",
+				"backgroundColorBottom": "#f3f3f3"
+			}
+		}, {
+			"path": "pages/user/myQR/myQR",
+			"style": {
+				"navigationBarTitleText": "我的二维码",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/msg/msg",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "消息列表",
+				"navigationBarBackgroundColor": "#f06c7a",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/msg/chat/chat",
+			"style": {
+				"navigationBarBackgroundColor": "#f2f2f2",
+				"backgroundColorTop": "#e5e5e5",
+				"backgroundColorBottom": "#e5e5e5"
+			}
+		}, {
+			"path": "pages/user/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"navigationBarBackgroundColor": "#f06c7a",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/user/keep/keep",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"navigationBarBackgroundColor": "#f06c7a",
+				"navigationBarTextStyle": "white"
+			}
+		}, 
+		{
+			"path": "pages/user/address/address",
+			"style": {
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTitleText": "地址管理",
+				"backgroundColorTop": "#ffffff",
+				"backgroundColorBottom": "#ffffff"
+			}
+		}, 
+		{
+			"path": "pages/user/address/edit/edit",
+			"style": {
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTitleText": "编辑收件人地址",
+				"backgroundColorTop": "#ffffff",
+				"backgroundColorBottom": "#ffffff"
+			}
+		}, 
+		{
+			"path": "pages/user/deposit/deposit",
+			"style": {
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTitleText": "充值",
+				"backgroundColorTop": "#ffffff",
+				"backgroundColorBottom": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/add-input/add-input",
+			"style": {
+				"navigationBarBackgroundColor": "#ffffff",
+				"backgroundColorTop": "#ffffff",
+				"backgroundColorBottom": "#ffffff"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "07C160",
+		"backgroundColor": "#fafafa",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/home-o.png"
+			},
+			{
+				"pagePath": "pages/shangquan/shangquan",
+				"text": "商圈",
+				"iconPath": "static/icons/quanzi.png",
+				"selectedIconPath": "static/icons/quanzi-o.png"
+			},
+			{
+				"pagePath": "pages/ruzhu/ruzhu",
+				"text": "入驻",
+				"iconPath": "static/icons/shangjiaruzhu.png",
+				"selectedIconPath": "static/icons/shangjiaruzhu-o.png"
+			},
+			{
+				"pagePath": "pages/dongtai/dongtai",
+				"text": "动态",
+				"iconPath": "static/icons/dongtai.png",
+				"selectedIconPath": "static/icons/dongtai-o.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/icons/my.png",
+				"selectedIconPath": "static/icons/my-o.png"
+			}
+		]
+	}
+}

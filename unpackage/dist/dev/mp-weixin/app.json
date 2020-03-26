@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shangquan/shangquan",
+    "pages/ruzhu/ruzhu",
+    "pages/dongtai/dongtai",
+    "pages/user/user",
+    "pages/shangjiaxiangqing/shangjiaxiangqing",
+    "pages/login/register",
+    "pages/login/login",
+    "pages/login/resetpasswd",
+    "pages/user/order_list/order_list",
+    "pages/user/setting/setting",
+    "pages/user/myQR/myQR",
+    "pages/msg/msg",
+    "pages/msg/chat/chat",
+    "pages/user/coupon/coupon",
+    "pages/user/keep/keep",
+    "pages/user/address/address",
+    "pages/user/address/edit/edit",
+    "pages/user/deposit/deposit",
+    "pages/add-input/add-input"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "07C160",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-o.png"
+      },
+      {
+        "pagePath": "pages/shangquan/shangquan",
+        "text": "商圈",
+        "iconPath": "static/icons/quanzi.png",
+        "selectedIconPath": "static/icons/quanzi-o.png"
+      },
+      {
+        "pagePath": "pages/ruzhu/ruzhu",
+        "text": "入驻",
+        "iconPath": "static/icons/shangjiaruzhu.png",
+        "selectedIconPath": "static/icons/shangjiaruzhu-o.png"
+      },
+      {
+        "pagePath": "pages/dongtai/dongtai",
+        "text": "动态",
+        "iconPath": "static/icons/dongtai.png",
+        "selectedIconPath": "static/icons/dongtai-o.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/icons/my.png",
+        "selectedIconPath": "static/icons/my-o.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap14.json"
+}

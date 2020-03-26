@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ms-tabs": "/components/common/ms-tabs/ms-tabs"
+  }
+}

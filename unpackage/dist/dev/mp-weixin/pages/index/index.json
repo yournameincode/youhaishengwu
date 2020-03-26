@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "有害生物防治圈",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "bw-swiper": "/components/bw-swiper/bw-swiper",
+    "screen-text-scroll": "/components/screenTextScroll/screenTextScroll",
+    "index-shangye": "/components/index-shangye/index-shangye",
+    "index-item": "/components/index-item/index-item"
+  }
+}

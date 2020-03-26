@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商圈",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "bw-swiper": "/components/bw-swiper/bw-swiper",
+    "shangquan-yemian": "/components/shangquan-yemian/shangquan-yemian",
+    "tabs": "/components/common/tabs/tabs"
+  }
+}
